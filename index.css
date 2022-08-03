@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn{
+    background-color: transparent;
+    border-radius: 20px;
+    color: red;
+    padding: 10px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(205, 195, 195);
+}
